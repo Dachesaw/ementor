@@ -3,6 +3,7 @@
     /* display: none; */
     font-family: raleway;
     margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -39,13 +40,16 @@ button {
 
 /*^ ALL */
 
+/* HEADER */
+header {}
+
 /*  MENU */
 menu {
     display: flex;
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    left: 7%;
+    right: 7%;
     align-items: center;
     justify-content: center;
 }
@@ -54,12 +58,17 @@ menu {
     height: 110px;
 }
 
+menu div {
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+
 
 .ul-header li div {
     position: absolute;
     top: 25px;
-    left: 7%;
-
+    left: 0;
 }
 
 .ul-header {
@@ -85,6 +94,25 @@ menu {
 }
 
 /*^  MENU */
+
+/*  NAV */
+nav {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li:last-child {
+    opacity: 50%;
+}
+
+/*^  NAV */
+
+/*^ HEADER */
 
 /* FOOTER*/
 footer {
