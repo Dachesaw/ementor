@@ -15,7 +15,7 @@ button {
     cursor: pointer;
     border: none;
     margin-top: 30px;
-    max-width: 230px;
+    width: 230px;
     height: 56px;
     border-radius: 0px 20px 0px 20px;
     font-size: 16px;
@@ -23,7 +23,6 @@ button {
     font-weight: 500;
     line-height: 16px;
     text-align: center;
-
 }
 
 .logo {
@@ -192,9 +191,158 @@ nav ul li:last-child {
 }
 
 /*^ CONTAINER 1 */
-
 /*^ BLOCK-1 */
 
+/* BLOCK-2 */
+.block-3-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: 602px;
+    background: rgba(16, 181, 130, 1);
+}
+
+/* WRAP-1 */
+.wrap-3-1 {
+    position: relative;
+    width: 570px;
+    height: 316px;
+}
+
+.wrap-3-1 img {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.img-border {
+    position: absolute;
+    left: 0;
+    width: 540px;
+    height: 286px;
+
+    border-radius: 120px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    border: solid 2px rgba(253, 253, 253, 1);
+    border-style: dashed;
+}
+
+/*^ WRAP-1 */
+
+/* WRAP-2 */
+.wrap-3-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrap-3-2 h1 {
+    width: 500px;
+    height: 140px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 69.6px;
+    text-align: left;
+    color: rgba(253, 253, 253, 1);
+
+}
+
+.wrap-3-2 p {
+    width: 478px;
+    height: 96px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(253, 253, 253, 1);
+}
+
+#btn-3 {
+    margin-top: 30px;
+    background: rgba(250, 159, 66, 1);
+
+}
+
+/*^ WRAP-2 */
+
+
+/*^ BLOCK-2 */
+
+/* BLOCK-3 */
+.block-4-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.block-4-container h1 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 58px;
+    text-align: center;
+}
+
+
+/* WRAP-1 */
+.wrap-4-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.wrap-4-1 picture h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+}
+
+.wrap-4-1 picture img {
+    margin-right: 8px;
+}
+
+.wrap-4-1 picture p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+
+    width: 240px;
+    height: 54px;
+
+
+}
+
+.wrap-4-1 picture {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px 0px rgba(101, 101, 101, 0.2);
+
+}
+
+
+/*^ WRAP-1 */
+#btn-4 {
+    background: rgba(16, 181, 130, 1);
+}
+
+/*^ BLOCK-3 */
 
 
 /* FOOTER*/
