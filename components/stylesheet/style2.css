@@ -13,6 +13,10 @@ ul {
 
 button {
     cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
     border: none;
     margin-top: 30px;
     width: 230px;
@@ -47,7 +51,7 @@ menu {
     display: flex;
     position: absolute;
     top: 0;
-    left: 7%;
+    /* left: 7%; */
     right: 7%;
     align-items: center;
     justify-content: center;
@@ -57,10 +61,10 @@ menu {
     height: 110px;
 }
 
-menu div {
+#log {
     position: absolute;
     top: 25px;
-    left: 0;
+    left: 7%;
 }
 
 
@@ -69,6 +73,8 @@ menu div {
     top: 25px;
     left: 0;
 }
+
+
 
 .ul-header {
     padding-top: 40px;
@@ -222,7 +228,6 @@ nav ul li:last-child {
     left: 0;
     width: 540px;
     height: 286px;
-
     border-radius: 120px 0px 0px 0px;
     border: 1px 0px 0px 0px;
     border: solid 2px rgba(253, 253, 253, 1);
@@ -295,8 +300,8 @@ nav ul li:last-child {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 30px;
-
 }
 
 .wrap-4-1 picture h4 {
@@ -344,6 +349,107 @@ nav ul li:last-child {
 
 /*^ BLOCK-3 */
 
+/*^ BLOCK-4 */
+.block-5-container {
+    display: flex;
+    /* padding-left: 60%; */
+    /* padding-right: 200px; */
+    margin-bottom: 120px;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10%;
+    height: 578px;
+    background-size: cover;
+    background-image: url("/components/img/bg3.png");
+}
+
+/* WRAP-1 */
+.wrap-5-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 508px;
+}
+
+.wrap-5-1 h1 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 69.6px;
+    text-align: left;
+}
+
+
+.wrap-5-1 p {
+    max-width: 508px;
+    height: 72px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(53, 58, 90, 1);
+}
+
+#btn-5 {
+    margin-top: 30px;
+    background: rgba(250, 159, 66, 1);
+}
+
+/*^ WRAP-1*/
+/*^ BLOCK-4 */
+/* BLOCK-5 */
+.block-6-container {
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.block-6-container picture {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 830px;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 5px 5px 30px 0px rgba(101, 101, 101, 0.1);
+}
+
+.block-6-container picture button {
+    align-items: center;
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: none;
+
+}
+
+.block-6-container picture h4 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28.6px;
+    text-align: left;
+    width: 670px;
+
+
+}
+
+.block-6-container picture p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    width: 670px;
+}
+
+/*^ BLOCK-5 */
 
 /* FOOTER*/
 footer {
