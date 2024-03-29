@@ -11,7 +11,6 @@ template.innerHTML = `
         <li><a class="a-header" href="#">Блог</a></li>
         <li><a class="a-header" href="#">Контакты</a></li>
     </ul>
-</menu>
-    `
+    `;
 
 document.body.appendChild(template.content)
