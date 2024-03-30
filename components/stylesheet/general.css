@@ -1,0 +1,70 @@
+/* ALL */
+* {
+    /* display: none; */
+    font-family: raleway;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    ;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+    width: 230px;
+    height: 56px;
+    border-radius: 0px 20px 0px 20px;
+    font-size: 16px;
+    color: rgba(253, 253, 253, 1);
+
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+}
+
+button a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    padding-right: 12px;
+}
+
+.btn-orange {
+    background: rgba(250, 159, 66, 1);
+}
+
+.btn-orange:hover {
+    border: solid white;
+    background: rgba(16, 181, 130, 1);
+}
+
+.btn-green {
+    background: rgba(16, 181, 130, 1);
+}
+
+.btn-green:hover {
+    background: rgba(250, 159, 66, 1);
+}
+
+.last-button {
+    background: rgba(250, 159, 66, 1);
+}
+
+.last-button:hover {
+    background: rgba(16, 181, 130, 1);
+}
+
+
+/*^ ALL */

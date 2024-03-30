@@ -1,49 +1,3 @@
-/* ALL */
-* {
-    /* display: none; */
-    font-family: raleway;
-    margin: 0;
-}
-
-ul {
-    list-style: none;
-    ;
-}
-
-button {
-    cursor: pointer;
-    border: none;
-    margin-top: 30px;
-    width: 230px;
-    height: 56px;
-    border-radius: 0px 20px 0px 20px;
-    font-size: 16px;
-    color: rgba(253, 253, 253, 1);
-
-    font-weight: 500;
-    line-height: 16px;
-    text-align: center;
-
-}
-
-button a {
-    text-decoration: none;
-}
-
-.logo {
-    font-size: 30px;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo img {
-    padding-right: 12px;
-}
-
-/*^ ALL */
-
 /*  MENU */
 menu {
     display: flex;
@@ -163,9 +117,9 @@ header {
 }
 
 #btn {
-    background: rgba(250, 159, 66, 1);
     margin-top: 30px;
 }
+
 
 .p-absolute {
     color: rgba(253, 253, 253, 1);
@@ -342,7 +296,6 @@ header {
 
 #btn-2 {
     margin-top: 30px;
-    background: rgba(16, 181, 130, 1);
 }
 
 /*^ WRAP-1 */
@@ -437,8 +390,6 @@ header {
 
 #btn-3 {
     margin-top: 30px;
-    background: rgba(250, 159, 66, 1);
-
 }
 
 /*^ WRAP-2 */
@@ -497,10 +448,6 @@ header {
 
 
 /*^ WRAP-1 */
-#btn-4 {
-    background: rgba(16, 181, 130, 1);
-}
-
 /*^ BLOCK-4 */
 
 /* BLOCK-5 */
@@ -546,7 +493,6 @@ header {
 
 #btn-5 {
     margin-top: 30px;
-    background: rgba(250, 159, 66, 1);
 }
 
 /*^ WRAP-1*/

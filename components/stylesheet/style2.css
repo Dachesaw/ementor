@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-ul {
+/* ul {
     list-style: none;
     ;
 }
@@ -27,7 +27,7 @@ button {
     font-weight: 500;
     line-height: 16px;
     text-align: center;
-}
+} */
 
 .logo {
     font-size: 30px;
@@ -266,8 +266,6 @@ nav ul li:last-child {
 
 #btn-3 {
     margin-top: 30px;
-    background: rgba(250, 159, 66, 1);
-
 }
 
 /*^ WRAP-2 */
@@ -343,9 +341,7 @@ nav ul li:last-child {
 
 
 /*^ WRAP-1 */
-#btn-4 {
-    background: rgba(16, 181, 130, 1);
-}
+
 
 /*^ BLOCK-3 */
 
@@ -391,7 +387,6 @@ nav ul li:last-child {
 
 #btn-5 {
     margin-top: 30px;
-    background: rgba(250, 159, 66, 1);
 }
 
 /*^ WRAP-1*/
