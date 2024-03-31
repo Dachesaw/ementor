@@ -3,7 +3,7 @@ const template = document.createElement(`template`)
 template.innerHTML = `
 <div class="logo" id="log">
         <img src="components/img/logo.svg" alt="">
-        E-Mentor
+        <span class="spa">E-Mentor</span>
     </div>
 <menu>
     <ul class="ul-header">
