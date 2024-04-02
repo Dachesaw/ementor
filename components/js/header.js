@@ -4,7 +4,7 @@ template.innerHTML = `
 <div class="logo" id="log">
         <img src="components/img/logo.svg" alt="">
         <span class="spa">E-Mentor</span>
-    </div>
+</div>
 <menu>
     <ul class="ul-header">
         <li><a class="a-header" href="#">О&nbspнас</a></li>
