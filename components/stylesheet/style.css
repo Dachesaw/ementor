@@ -17,16 +17,14 @@ header {
 
 .svg-container ul {
     padding: 0;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.svg-container ul li:hover {
-    stroke: rgb(255, 0, 0);
-    color: rgb(255, 0, 0);
-    fill: red;
+.svg-container ul li a img:hover {
+    scale: 1.2;
+    transition: 500ms;
 }
 
 /*^ svg */
@@ -36,15 +34,14 @@ header {
 
 /* BLOCK-1 */
 .block-1 {
-    border: solid green;
+    /* border: solid green; */
     display: flex;
     height: 570px;
-    display: flex;
     justify-content: space-between;
 }
 
 .flex-container {
-    border: solid green;
+    /* border: solid green; */
     color: rgba(253, 253, 253, 1);
     display: flex;
     align-items: center;
@@ -67,7 +64,6 @@ header {
     font-weight: 500;
     line-height: 69.6px;
     text-align: center;
-
 }
 
 .block-container p {
@@ -298,8 +294,9 @@ header {
 
 /* WRAP-1 */
 .wrap-3-1 {
-    width: 500px;
-    height: 362px;
+    border: solid lime;
+    /* width: 500px; */
+    /* height: 362px; */
 }
 
 .img-border {

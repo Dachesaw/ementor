@@ -159,23 +159,31 @@ nav ul li:last-child {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 602px;
+    flex-wrap: wrap;
+    /* height: 602px; */
+    padding-top: 120px;
+    padding-bottom: 120px;
     background: rgba(16, 181, 130, 1);
 }
 
 /* WRAP-1 */
 .wrap-3-1 {
+    overflow: hidden;
+    width: 450px;
+    height: 380px;
     position: relative;
 }
 
 .wrap-3-1 img {
     z-index: 1;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    /* bottom: 0; */
 }
 
 .img-border {
     position: absolute;
+    top: 0;
+    right: 0;
     border: 1px 0px 0px 0px;
     border: solid 2px rgba(253, 253, 253, 1);
     border-style: dashed;
