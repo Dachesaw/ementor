@@ -39,6 +39,12 @@ button a {
     padding-right: 12px;
 }
 
+
+address {
+    display: subgrid;
+}
+
+
 .btn-orange {
     background: rgba(250, 159, 66, 1);
 }
