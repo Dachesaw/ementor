@@ -192,19 +192,6 @@
     box-shadow: 5px 5px 30px 0px rgba(101, 101, 101, 0.1);
 }
 
-.block-6-container picture button {
-    align-items: center;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 1%;
-    width: 36px;
-    height: 36px;
-    border: none;
-    background: none;
-
-}
-
 .block-6-container picture h4 {
     font-size: 22px;
     font-weight: 500;
@@ -222,5 +209,31 @@
     text-align: left;
     width: 670px;
 }
+
+.click {
+    border-radius: 100%;
+    content: "";
+    color: rgba(16, 181, 130, 1);
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 2%;
+    width: 36px;
+    height: 36px;
+    background: none;
+    border: dashed 2px rgba(16, 181, 130, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-inactive {
+    display: none;
+}
+
 
 /*^ BLOCK-5 */

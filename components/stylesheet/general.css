@@ -9,7 +9,7 @@ ul {
     list-style: none;
 }
 
-button {
+div button {
     cursor: pointer;
     border: none;
     margin-top: 30px;
