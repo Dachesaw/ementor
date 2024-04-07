@@ -2,7 +2,7 @@ const template = document.createElement(`template`)
 
 template.innerHTML = `
 <menu>
-<div class="logo" id="log">
+<div class="logo-m" id="log">
         <img src="components/img/logo.svg" alt="">
         <span class="spa">E-Mentor</span>
 </div>
