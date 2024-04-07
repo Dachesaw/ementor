@@ -292,9 +292,15 @@ header {
 
 /* WRAP-1 */
 .wrap-3-1 {
-    border: solid lime;
-    /* width: 500px; */
+    width: 500px;
+    height: 360px;
+    overflow: hidden;
     /* height: 362px; */
+}
+
+.wrap-3-1 img {
+    position: absolute;
+    bottom: 0;
 }
 
 .img-border {
@@ -366,3 +372,24 @@ header {
 }
 
 /*^ BLOCK-5 */
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .block-1-container {
+        margin-top: 60px;
+        gap: 50px;
+    }
+
+    .block-1-container h1 {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 58px;
+
+    }
+
+    .block-1-container p {
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 16.8px;
+        text-align: center;
+    }
+}

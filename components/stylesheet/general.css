@@ -103,7 +103,7 @@ menu {
 
 .ul-header li div {
     position: absolute;
-    top: 25px;
+    top: 30px;
     left: 0;
 }
 
@@ -141,6 +141,7 @@ menu {
 
 /*  NAV */
 nav {
+    margin-top: 10px;
     padding-left: 7%;
     padding-right: 7%;
 }
@@ -277,21 +278,18 @@ nav ul li:last-child {
 /* WRAP-1 */
 .wrap-3-1 {
     overflow: hidden;
-    width: 450px;
-    height: 380px;
+    /* width: 450px; */
+    /* height: 380px; */
     position: relative;
 }
 
 .wrap-3-1 img {
     z-index: 1;
-    position: relative;
-    /* bottom: 0; */
 }
 
 .img-border {
     position: absolute;
     top: 0;
-    right: 0;
     border: 1px 0px 0px 0px;
     border: solid 2px rgba(253, 253, 253, 1);
     border-style: dashed;
@@ -413,6 +411,8 @@ nav ul li:last-child {
     padding-right: 10%;
     height: 578px;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 /* WRAP-1 */
@@ -457,10 +457,9 @@ footer {
     padding-left: 7%;
     padding-right: 7%;
     /* gap: 20%; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 7rem;
 }
 
 .column {
@@ -473,7 +472,7 @@ footer {
 .column ul {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 1vw;
     align-items: start;
 }
 
@@ -491,7 +490,7 @@ footer {
 .f-svg-container ul {
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 35%;
 }
 
 
@@ -635,7 +634,7 @@ footer {
         display: none;
     }
 
-    header {
+    .header-1 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -644,25 +643,6 @@ footer {
 
     .element-block {
         gap: 1px;
-    }
-
-    .block-1-container {
-        margin-top: 60px;
-        gap: 50px;
-    }
-
-    .block-1-container h1 {
-        font-size: 40px;
-        font-weight: 500;
-        line-height: 58px;
-        color: rgba(16, 181, 130, 1);
-    }
-
-    .block-1-container p {
-        font-size: 11px;
-        font-weight: 400;
-        line-height: 16.8px;
-        text-align: center;
     }
 
     .wrap-2-1 {
@@ -696,5 +676,137 @@ footer {
         /* display: none; */
         max-width: 130px;
         font-size: 14px;
+    }
+
+    .wrap-3-1 {
+        display: none;
+    }
+
+    .wrap-3-2 {
+        align-items: center;
+        gap: 10px;
+    }
+
+    .wrap-3-2 h1 {
+        max-width: 500px;
+        height: auto;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 45px;
+        text-align: center;
+        color: rgba(253, 253, 253, 1);
+
+    }
+
+    .wrap-3-2 p {
+        width: auto;
+        height: auto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(253, 253, 253, 1);
+    }
+
+    #btn-3 {
+        margin-top: 10px;
+    }
+
+    .block-3-container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .block-4-container {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .block-4-container h1 {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    .block-4-container {
+        gap: 30px;
+    }
+
+
+    /* WRAP-1 */
+    .wrap-4-1 {
+        gap: 4vw;
+    }
+
+    .wrap-4-1 picture a:hover {
+        scale: 1;
+    }
+
+    #btn-4 {
+        margin-top: 0;
+    }
+
+    /*^ WRAP-1 */
+    /*^ BLOCK-4 */
+
+
+
+
+    .block-5-container {
+        margin-bottom: 60px;
+        /* align-items: center; */
+        justify-content: center;
+        padding-right: 0;
+        height: auto;
+    }
+
+    /* WRAP-1 */
+    .wrap-5-1 {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        gap: 10px;
+        width: auto;
+    }
+
+    .wrap-5-1 h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 45px;
+        text-align: left;
+        width: auto;
+    }
+
+    #btn-5 {
+        margin-top: 15px;
+    }
+
+    /*^ WRAP-1*/
+    /*^ BLOCK-5 */
+
+    .block-6-container picture h4 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28.6px;
+        text-align: left;
+        max-width: 670px;
+        padding-right: 30px;
+    }
+
+    .block-6-container picture p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20.8px;
+        text-align: left;
+        width: 81%;
+    }
+
+    .block-6-container h1 {
+        font-size: 25px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        align-items: center;
+        gap: 4rem;
     }
 }
